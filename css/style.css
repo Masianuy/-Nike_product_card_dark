@@ -1,0 +1,115 @@
+body {
+	margin: 0 auto;	
+	padding: 100px 60px;
+	display: flex;
+	background-image: url('../img/backgroundimage.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content:center;
+	font-family: [Museo Sans Rounded], Arial, sans-serif;
+}
+.conteiner {
+	background: rgb(21, 35, 53);
+	border: 1px solid #152335;
+	border-radius: 8px;
+	box-shadow: 0 0 50px rgba(21, 35, 53, 1);
+	width: 690px;
+	height: 100%;
+	}
+.header {
+	padding-top: 24px;
+	padding-left: 21px;
+	width: 100%;
+}
+.logo {
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	width: 65px;
+	height: 33px;
+}
+.column-left {
+	float: left;
+	padding-top: 70px;
+	padding-left: 36px;
+	padding-bottom: 20px;
+}
+.column-left__img {
+	width: 329px;
+	height: 159px;
+	padding-bottom: 60px;
+}
+.column-left__item {
+	margin: 0 auto;
+	width: 75px;
+	height: 20px;
+	text-align: center;
+}
+.column-left__item li {
+	display: inline;
+	list-style-type: none;
+}
+.column-left__item li::after {
+	content: '\25cf';
+}
+.column-left__item--1 {
+	color: #293550;
+}
+.column-left__item--2 {
+	color: #ffffff;
+}
+.column-left__item--3 {
+	color: #F34B42;
+}
+.column-left__item--4 {
+	color: #25E7EE;
+}
+.column-right {
+	float: left;
+	margin-left: 80px;
+}
+.column-right__heading {
+	font-size: 24px;
+	color: #e7e7e7;
+	font-weight: 100;
+	width: 155px;
+	height: 45px;
+}
+.column-right__text {
+	font-size: 14px;
+	color: #e7e7e7;
+	opacity: 0.6;
+}
+.rating-list li {
+	display: inline;
+	list-style-type: none;
+}
+.rating-list li::after {
+	content: '★';
+}
+.rating-list--1,
+.rating-list--2,
+.rating-list--3 {
+	color: #F7BF16;
+}
+.size {
+	background-color: inherit;
+	border-color: #525C69;
+	padding: 10px;
+	font-size: 14px;
+	color: #525C69;
+}
+.qty {
+	background-color: inherit;
+	border-color: #525C69;
+	padding: 10px;
+	font-size: 14px;
+	color: #525C69;
+}
+.btn__add {
+	background-color: #283443;
+	border:1px solid #525C69;
+	margin-top: 30px;
+	padding: 15px 55px;
+	font-size: 14px;
+	color: #525C69;
+}
